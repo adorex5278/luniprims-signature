@@ -58,10 +58,10 @@ Pour fabriquer un bandeau 1108 × 277 à partir d'une vidéo/image : `python too
 
 ```
 python tools/generer_gabarits.py --worker https://greype-sig.greype.workers.dev --prefixe lp ^
-    --titre "Signature LUNIPRIM'S" --alt "LUNIPRIM'S" -o gabarits/
+    --titre "Signature LUNIPRIM'S" --alt "LUNIPRIM'S" --salutation "Atentamente," -o gabarits/
 ```
 
-Chaque gabarit : « Cordialement, », le bandeau (éteint = 1 px, sans vide), puis la
+Chaque gabarit : « Atentamente, », le bandeau (éteint = 1 px, sans vide), puis la
 signature. **Aucune hauteur imposée** : la signature suit l'image servie.
 
 ## Points de vigilance
